@@ -1,0 +1,226 @@
+   * {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablet: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.giftos{
+    font-size: 15px;
+    text-align: center;
+}
+.header{
+    background-color: rgb(250, 217, 223);
+    overflow: hidden;
+    text-align: center;    
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 15px;
+    font-size: 15px;
+    display: block;
+    float: left;
+}
+
+.mainbar{
+    background-color : rgb(252, 161,176);
+    color: white;
+    border-radius:0px 0px 30px 30px;
+    padding: 50px;
+}
+
+.product{
+  padding: 20px;
+  text-align: center;
+  background-color: aliceblue;
+}
+.product p{
+  text-align: left;
+}
+
+.mainbar01{
+  background-color: rgb(114,172,191 ); 
+  color:white;
+  border-radius: 20px;
+}
+
+.icon{
+  padding: 50px;
+  text-align: center;
+  background-color:aliceblue;
+}
+
+.mainbar02{
+  background-color: rgb(101, 18, 92);
+  color: white;
+  padding: 40px;
+  border-radius: 30px;  
+}
+
+.rochak{
+  border: solid 2px white;
+  box-shadow:0px 0px 5px black ;
+  padding: 10px;
+}
+
+.icon00{
+  font-size: 30px;
+  text-align: center;
+}
+
+.icon01{
+  color:white;
+}
+
+.footer{
+  background-color: rgb(58, 53, 53);
+  color: white;
+  padding: 50px;
+}
+
+ /*button*/
+
+.contact{
+  background-color: rgb(243, 93, 118);
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border:solid 2px rgb(252, 161, 176);
+  border-radius:10px;
+}
+.contact:hover{
+  background-color:rgb(252, 161, 176);
+  color:rgb(243, 93, 118) ;
+  border: solid 2px rgb(243, 93, 118);
+}
+.view{
+    background-color: rgb(243, 93, 118);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:solid 2px rgb(252, 161, 176);
+    border-radius:10px;
+  }
+  .view:hover{
+    background-color: white;
+    color: rgb(243, 93, 118);
+  }
+
+.buy{
+  background-color:rgb(0, 132, 255);
+  color: white;
+  border: solid 2px rgb(0, 132, 255);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buy:hover{
+  background-color:rgb(114, 172, 191);
+  color:rgb(0, 132, 255);
+}
+.see{
+  border: solid 2px white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.see:hover{
+  background-color:rgb(114, 172, 191) ;
+  color: white;
+}
+.buyn{
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  color: purple;
+  border: solid 2px white;
+} 
+.buyn:hover{
+  background-color: purple;
+  color: white;
+}
+.more{
+  background-color: rgb(131, 70, 131);
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  border: solid 2px rgb(131, 70, 131);
+}
+.more:hover{
+  opacity: 0.3;
+}
+.send{
+  text-align: center;
+  background-color: rgb(246, 97, 122);
+  color: white;
+  padding: 15px;
+  border:solid 2px rgb(246, 97, 122);
+  padding-left: 35px;
+  padding-right: 35px; 
+}
+.send:hover{
+  background-color: white;
+  color:rgb(246, 97, 122) ;
+}
+
+.sub01{
+  background-color: rgb(252, 139, 158);
+  color: white;
+  border: solid 0px;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 35px;
+  padding-right: 35px; 
+}

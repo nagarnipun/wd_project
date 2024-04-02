@@ -1,0 +1,13 @@
+.headerpage{
+    background-image: url(../image/header-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    background-color: rgb(40, 40, 118);
+    color: white;
+}
+.footer a:hover{
+    background-color:blue;
+    
+}

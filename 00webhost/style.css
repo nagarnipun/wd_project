@@ -1,0 +1,76 @@
+.navbar01 {
+    background-color: aliceblue;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+
+div .navbar01 a:hover {
+    opacity: 0.5;
+}
+
+.box01 {
+    box-shadow: 0px 0px 1px black;
+    transition-duration: 0.5s;
+}
+
+.box01:hover {
+    box-shadow: 1px 1px 7px black;
+    transform: scale(1.1, 1.1);
+}
+
+.box02 {
+    margin: 0px;
+    padding: 110px 50px 110px 70px;
+    background-color: rgb(214, 54, 54);
+    color: white;
+
+}
+
+.box02:hover {
+    background-color: white;
+    color: rgb(214, 54, 54);
+}
+
+.box03 {
+    border: solid 1px;
+    padding: 90px 50px 90px 50px;
+
+}
+
+.box03:hover {
+    background-color: rgb(214, 54, 54);
+    color: white;
+}
+
+.colorbox {
+    background-color: rgb(214, 68, 68);
+}
+
+.badgebox {
+    padding: 15px 70px 15px 70px;
+    border: solid 1px black;
+    box-shadow: 1px 1px 8px black;
+    opacity: 0.6;
+}
+
+.footer a {
+    opacity: 0.6;
+}
+
+.footer a:hover {
+    opacity: 1.2;
+}
+
+.icon {
+    font-size: 40px;
+    color: rgb(214, 68, 68);
+}
+
+.alert {
+    background-color: rgb(53, 53, 138);
+}
+
+.box4 {
+    padding: 100px;
+}
